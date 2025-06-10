@@ -1,13 +1,11 @@
 ﻿namespace CSStack.WinFormsMVP.Sample
 {
-	public interface IMainFormView
-	{
-		event EventHandler? SubmitAction;
+    public interface IMainFormView : IView<MainFormPresenter>
+    {
+        event EventHandler? SubmitAction;
 
-		string DisplayText { get; set; }
+        string DisplayText { get; set; }
 
-		string InputText { get; set; }
-
-		void Show();
-	}
+        string InputText { get; set; }
+    }
 }
