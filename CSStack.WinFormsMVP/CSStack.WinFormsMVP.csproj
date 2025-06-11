@@ -5,6 +5,31 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Title>CSStack.WinFormsMVP</Title>
+    <Version>0.0.2</Version>
+    <Authors>Uta Sugane</Authors>
+    <Description>WinFormsでMVPを採用する際に便利なインターフェースやクラスをまとめたライブラリ。</Description>
+    <PackageIcon>CSStack.png</PackageIcon>
+    <RepositoryUrl>https://github.com/Uta-member/CSStack.WinFormsMVP</RepositoryUrl>
+    <PackageTags>CSStack;WinForms;MVP;</PackageTags>
+    <PackageReleaseNotes>不要な処理を削除</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="CSStack.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

@@ -1,7 +1,14 @@
 ﻿namespace CSStack.WinFormsMVP
 {
-    public interface IView<TPresenter>
-    {
-        TPresenter Presenter { get; set; }
-    }
+	/// <summary>
+	/// Viewのインターフェース
+	/// </summary>
+	/// <typeparam name="TPresenter">Presenterの型。IPresenterまたはPresenterBaseを継承したものを渡してください。</typeparam>
+	public interface IView<TPresenter>
+	{
+		/// <summary>
+		/// Presenter
+		/// </summary>
+		TPresenter Presenter { get; set; }
+	}
 }
